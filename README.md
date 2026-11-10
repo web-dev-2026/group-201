@@ -1,4 +1,4 @@
-# Unit 16: Veb-sayt dizayni va ishlab chiqish — Guruh 201
+# Veb-sayt dizayni va ishlab chiqish — Guruh 201
 
 **Guruh sayti:** https://web-dev-2026.github.io/group-201/
 
