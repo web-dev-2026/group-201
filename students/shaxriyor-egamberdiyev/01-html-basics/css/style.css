@@ -1,0 +1,89 @@
+#profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar {
+display: flex;
+justify-content: space-between; /* logo chapga, menyu o‘ngga */
+align-items: center; /* vertikal markazda */
+padding: 18px 48px;
+background: #1f3c88; /* lojuvard ko‘k */
+gap: 20px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+}
+.hero img{
+    
+  max-width: 10%; /* Konteynerdan katta bo'lsa, o'lchamini kichraytiradi */
+  height: auto;     /* Balandligini proporsiyaga qarab avtomat to'g'rilaydi */
+}
+
+
+.logo {
+color: white;
+font-size: 22px;
+font-weight: bold;
+text-decoration: none;
+}
+.menu {
+display: flex; /* li lar bir qatorga */
+gap: 24px;
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+.menu a {
+color: #c9d6f5;
+text-decoration: none;
+padding-bottom: 4px;
+border-bottom: 2px solid transparent;
+}
+.menu a:hover {
+color: white;
+border-bottom-color: #2ec4b6; /* firuza */
+}
+
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.hero-text{
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.skills h2{
+    display: flex;
+    justify-content: center;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
