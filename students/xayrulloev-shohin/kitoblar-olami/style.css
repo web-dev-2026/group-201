@@ -1,0 +1,527 @@
+* Umumiy CSS qoidalari */ * {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', Arial, sans-serif;
+  color: #1f2a24;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+/* Tugmalar va yordamchi klasslar */
+.btn {
+  display: inline-block;
+  padding: 14px 26px;
+  border-radius: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.btn-green {
+  background-color: #1b6b4f;
+  color: #ffffff;
+}
+
+.btn-ghost {
+  border-color: #1b6b4f;
+  color: #1b6b4f;
+  background-color: transparent;
+}
+
+.section {
+  padding: 88px 0;
+}
+
+.eyebrow {
+  font-size: 14px;
+  color: #c4553b;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+/* 1-qism: Menyu (Navbar) stillari */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 700;
+  font-size: 18px;
+  color: #1b6b4f;
+}
+
+.logo-mark {
+  background-color: #1b6b4f;
+  color: #ffffff;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+.menu {
+  display: flex;
+  gap: 32px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.menu a:hover {
+  color: #1b6b4f;
+}
+
+.mail {
+  color: #c4553b;
+  font-size: 14px;
+  font-weight: 600;
+}
+.mail:hover {
+  text-decoration: underline;
+}
+/* 2-qism: Bosh qism (Hero) stillari */
+.hero {
+  background-color: #f6efe2;
+  padding: 72px 0;
+}
+
+.hero-inner {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+
+.hero-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.badge {
+  background-color: #ffffff;
+  color: #1f2a24;
+  padding: 8px 16px;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 600;
+  align-self: flex-start;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.hero-text h1 {
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 1.15;
+  color: #1f2a24;
+}
+
+.hero-text mark {
+  background-color: #f2c14e;
+  color: inherit;
+  padding: 0 8px;
+  border-radius: 8px;
+}
+
+.lead {
+  font-size: 18px;
+  color: #55625b;
+  max-width: 480px;
+}
+
+.hero-btns {
+  display: flex;
+  gap: 16px;
+  margin-top: 4px;
+}
+
+.covers {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex: 1;
+  justify-content: center;
+}
+
+.covers img {
+  width: 150px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
+  transition: transform 0.3s ease;
+}
+
+.covers img.main-cover {
+  width: 200px;
+  height: 290px;
+  box-shadow: 0 20px 48px rgba(0, 0, 0, 0.18);
+  z-index: 2;
+}
+
+.covers img:hover {
+  transform: translateY(-6px);
+}
+/* ```[cite: 1] */
+
+/* Buni `main.css` ga qo‘shib saqlang. Tayyor bo‘lsa, keyingi **3-qism — Haftaning top-5 kitobi (Reyting)** qismiga o‘tamiz! */
+/* 3-qism: Top-5 ro‘yxat stillari */
+.section-title {
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 32px;
+  color: #1f2a24;
+}
+
+.top-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.book {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 16px 24px;
+  border-radius: 16px;
+  border: 1px solid #eee7da;
+  background-color: #ffffff;
+  transition: 0.2s;
+}
+
+.book:first-child {
+  background-color: #fff8e6;
+  border-color: #f2c14e;
+}
+
+.book:hover {
+  border-color: #1b6b4f;
+}
+
+.rank {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #1b6b4f;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.book img {
+  width: 52px;
+  height: 74px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.book-info {
+  flex: 1;
+}
+
+.book-info h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.book-info p {
+  font-size: 14px;
+  color: #55625b;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: 700;
+  color: #1b6b4f;
+}
+/* 4-qism: Yetkazish jadvali stillari */
+#yetkazish {
+  background-color: #f6efe2;
+}
+
+.delivery {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.delivery th {
+  background-color: #1b6b4f;
+  color: #ffffff;
+  padding: 16px 20px;
+  text-align: left;
+  font-weight: 700;
+}
+
+.delivery td {
+  padding: 16px 20px;
+  border-bottom: 1px solid #eee7da;
+}
+
+.delivery .method {
+  font-weight: 700;
+  color: #1b6b4f;
+  background-color: #e8f3ee;
+  vertical-align: middle;
+}
+
+.delivery tbody tr:hover td:not(.method) {
+  background-color: #fff8e6;
+}
+
+.delivery tfoot td {
+  background-color: #f2c14e;
+  font-weight: 700;
+  color: #1f2a24;
+  border-bottom: none;
+}
+/* 5-qism: Treyler va audiokitob stillari */
+.media-row {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+
+.media-video {
+  flex: 1.2;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.media-video video {
+  width: 100%;
+  border-radius: 16px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
+}
+
+.caption {
+  font-size: 14px;
+  color: #55625b;
+}
+
+.audio-box {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.lead-audio {
+  color: #55625b;
+}
+
+.audio-box audio {
+  width: 100%;
+}
+
+.audio-list {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.audio-list li {
+  padding: 6px 12px;
+  border-radius: 999px;
+  background-color: #e8f3ee;
+  font-size: 14px;
+  font-weight: 500;
+  color: #1b6b4f;
+}
+
+/* 6-qism: Buyurtma formasi stillari */
+.order-section {
+  background-color: #f6efe2;
+}
+
+.order {
+  max-width: 780px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  border-top: 6px solid #1b6b4f;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.08);
+}
+
+.order h2 {
+  font-size: 28px;
+  font-weight: 800;
+  color: #1f2a24;
+  margin-bottom: 8px;
+}
+
+.row {
+  display: flex;
+  gap: 16px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  flex: 1;
+}
+
+.field.grow {
+  flex: 2;
+}
+
+.field label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #1f2a24;
+}
+
+.order input,
+.order select,
+.order textarea {
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: 1px solid #eee7da;
+  font-family: inherit;
+  font-size: 15px;
+  color: #1f2a24;
+  outline: none;
+  transition: 0.2s;
+}
+
+.order input:focus,
+.order select:focus,
+.order textarea:focus {
+  border-color: #1b6b4f;
+  box-shadow: 0 0 0 3px rgba(27, 107, 79, 0.1);
+}
+
+.radio-group,
+.checkbox-group {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-top: 4px;
+  font-size: 15px;
+}
+
+.radio-group label,
+.checkbox-group label {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+.form-btns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 12px;
+}
+
+/* 7-qism: Footer stillari */
+.footer {
+  background-color: #123d2e;
+  color: #cfe5da;
+  padding-top: 56px;
+  padding-bottom: 24px;
+}
+
+.footer-top {
+  display: flex;
+  gap: 48px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-brand {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.footer-logo {
+  color: #ffffff !important;
+}
+
+.footer-brand p {
+  color: #cfe5da;
+}
+
+.footer-col {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-style: normal;
+}
+
+.footer-col b {
+  color: #ffffff;
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+.footer-col a:hover {
+  color: #f2c14e;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 24px;
+  font-size: 14px;
+}
+
+.footer-bottom a {
+  color: #f2c14e;
+  font-weight: 600;
+}
