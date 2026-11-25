@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="960" height="540">
+<defs><linearGradient id="s" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F6C17A"/><stop offset="1" stop-color="#F9E7C8"/></linearGradient></defs>
+<rect width="960" height="540" fill="url(#s)"/><circle cx="770" cy="120" r="56" fill="#FFF4D6"/><g transform="translate(70,220) scale(1.25)">
+<rect x="0" y="60" width="200" height="140" fill="#E9D7B5"/><rect x="60" y="20" width="80" height="180" fill="#E9D7B5"/>
+<path d="M75 200 V95 Q100 55 125 95 V200 Z" fill="#1F6FB2"/><path d="M83 200 V102 Q100 72 117 102 V200 Z" fill="#0E3A66"/>
+<rect x="60" y="20" width="80" height="12" fill="#1F6FB2"/><rect x="0" y="60" width="200" height="8" fill="#1F6FB2"/>
+<rect x="-14" y="10" width="14" height="190" fill="#E9D7B5"/><rect x="200" y="10" width="14" height="190" fill="#E9D7B5"/>
+<rect x="-14" y="10" width="14" height="10" fill="#1F6FB2"/><rect x="200" y="10" width="14" height="10" fill="#1F6FB2"/>
+<ellipse cx="100" cy="20" rx="30" ry="22" fill="#2BB3C0"/></g><g transform="translate(380,170) scale(1.55)">
+<rect x="0" y="60" width="200" height="140" fill="#E9D7B5"/><rect x="60" y="20" width="80" height="180" fill="#E9D7B5"/>
+<path d="M75 200 V95 Q100 55 125 95 V200 Z" fill="#1F6FB2"/><path d="M83 200 V102 Q100 72 117 102 V200 Z" fill="#0E3A66"/>
+<rect x="60" y="20" width="80" height="12" fill="#1F6FB2"/><rect x="0" y="60" width="200" height="8" fill="#1F6FB2"/>
+<rect x="-14" y="10" width="14" height="190" fill="#E9D7B5"/><rect x="200" y="10" width="14" height="190" fill="#E9D7B5"/>
+<rect x="-14" y="10" width="14" height="10" fill="#1F6FB2"/><rect x="200" y="10" width="14" height="10" fill="#1F6FB2"/>
+<ellipse cx="100" cy="20" rx="30" ry="22" fill="#2BB3C0"/></g><g transform="translate(690,220) scale(1.25)">
+<rect x="0" y="60" width="200" height="140" fill="#E9D7B5"/><rect x="60" y="20" width="80" height="180" fill="#E9D7B5"/>
+<path d="M75 200 V95 Q100 55 125 95 V200 Z" fill="#1F6FB2"/><path d="M83 200 V102 Q100 72 117 102 V200 Z" fill="#0E3A66"/>
+<rect x="60" y="20" width="80" height="12" fill="#1F6FB2"/><rect x="0" y="60" width="200" height="8" fill="#1F6FB2"/>
+<rect x="-14" y="10" width="14" height="190" fill="#E9D7B5"/><rect x="200" y="10" width="14" height="190" fill="#E9D7B5"/>
+<rect x="-14" y="10" width="14" height="10" fill="#1F6FB2"/><rect x="200" y="10" width="14" height="10" fill="#1F6FB2"/>
+<ellipse cx="100" cy="20" rx="30" ry="22" fill="#2BB3C0"/></g><rect x="0" y="480" width="960" height="60" fill="#D9B98A"/></svg>
